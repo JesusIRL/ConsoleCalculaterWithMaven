@@ -17,5 +17,9 @@ public class CalculatorTest {
         testee = new Calculator();
         assertTrue(testee.differenz(20, 7) == 13);
     }
-
+    @Test
+    public void testSummeZweiNegativeIsOk(){
+        testee = new Calculator();
+        assertTrue(testee.summe(-11,-4)== -15);
+    }
 }
