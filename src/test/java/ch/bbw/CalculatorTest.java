@@ -22,4 +22,9 @@ public class CalculatorTest {
         testee = new Calculator();
         assertTrue(testee.summe(-11,-4)== -15);
     }
+    @Test
+    public void testSubtractionZweiNegativeIsOk(){
+        testee = new Calculator();
+        assertTrue(testee.differenz(-13,-5)==-8);
+    }
 }
