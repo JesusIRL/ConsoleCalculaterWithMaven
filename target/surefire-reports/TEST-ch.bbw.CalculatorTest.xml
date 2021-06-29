@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ch.bbw.CalculatorTest" time="0" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ch.bbw.CalculatorTest" time="0" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CH"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\41791\AppData\Local\Temp\surefire6268321158152616319\surefirebooter9911388156625384398.jar C:\Users\41791\AppData\Local\Temp\surefire6268321158152616319 2021-06-29T22-31-32_006-jvmRun1 surefire9349032925123334669tmp surefire_015257972644484512360tmp"/>
+    <property name="sun.java.command" value="C:\Users\41791\AppData\Local\Temp\surefire1752480298977929284\surefirebooter15720226866512957991.jar C:\Users\41791\AppData\Local\Temp\surefire1752480298977929284 2021-06-29T22-44-33_309-jvmRun1 surefire1289651918894339024tmp surefire_017570425243396966082tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\41791\Documents\GitWork\ConsoleCalculatorWithMaven\target\test-classes;C:\Users\41791\Documents\GitWork\ConsoleCalculatorWithMaven\target\classes;C:\Users\41791\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\41791\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\41791\AppData\Local\Temp\surefire6268321158152616319\surefirebooter9911388156625384398.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\41791\AppData\Local\Temp\surefire1752480298977929284\surefirebooter15720226866512957991.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="13.0.1+9"/>
@@ -57,4 +57,9 @@
     <property name="java.class.version" value="57.0"/>
   </properties>
   <testcase name="testSummeZweiPositiveIsOk" classname="ch.bbw.CalculatorTest" time="0"/>
+  <testcase name="testSubtractionZweiPositiveIsOk" classname="ch.bbw.CalculatorTest" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at ch.bbw.CalculatorTest.testSubtractionZweiPositiveIsOk(CalculatorTest.java:18)
+</failure>
+  </testcase>
 </testsuite>
