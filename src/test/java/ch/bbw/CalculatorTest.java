@@ -17,4 +17,5 @@ public class CalculatorTest {
         testee = new Calculator();
         assertTrue(testee.differenz(20, 7) == 13);
     }
+
 }
